@@ -2271,6 +2271,72 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+	.edAndExContainer {
+		display: flex;
+		flex-direction: column;
+		row-gap: 1em;
+	}
+
+	.educationsIcon, .appAcadmeyIcon {
+		display: flex;
+		border: black solid;
+		border-radius: 999px;
+		flex-direction: column;
+		height: 50px;
+		justify-content: center;
+		width: 50px;
+		align-items: center;
+	}
+
+	.listEduAndExp {
+		display: flex;
+	}
+
+	.listEducation {
+		display: flex;
+		justify-content: flex-start;
+		column-gap: .5em;;
+		padding-left: .5em;
+	}
+
+
+	.schools {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.school {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+
+	.educationsIcon, .appAcadmeyIcon {
+		display: flex;
+	}
+
+	.educationAndExperiences {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.schoolYear, .schoolDegree {
+		font-size: 15px;
+	}
+
+
+	.listEduAndExpLeft {
+		flex: 0.5;
+	}
+
+	.listEduAndExpRight {
+		flex: 0.5;
+	}
+
+
+
 /* Contact */
 
 	#contact {
