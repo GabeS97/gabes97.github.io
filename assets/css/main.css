@@ -3240,7 +3240,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;	
+			background-color: #5e42a6;
 		}
 
 		.wrapper.style2.fullscreen {
@@ -3911,4 +3911,31 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+		.profilepic__container {
+			display: flex;
+			width: 100%;
+			justify-content:center;
+			align-items: center;
+			margin-bottom: 3em;
+		}
+
+		.profilepic {
+			border-radius: 999px;
+			height: 10em;
+			width: 10em;
+			border: solid black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+
+		.profilepic > img {
+			border-radius: 999px;
+			width: 100%;
+			height: 100%;
+			background-position: center;
+			background-size: cover;
 		}
