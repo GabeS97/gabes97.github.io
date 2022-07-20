@@ -3242,10 +3242,12 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			/* background-color: #5e42a6; */
+			background-color: #5e42a6;
+		}
+
+		.wrapper.style1.fullscreen {
 			background: url(/images/cover_pic.jpg) center center ;
 			background-size: cover;
-
 		}
 
 		.wrapper.style2.fullscreen {
