@@ -3004,12 +3004,14 @@ input, select, textarea {
 		}
 
 		.spotlights > section > .image {
-			background-position: center center;
-			background-size: cover;
+			/* background-position: center center; */
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 25em;;
+
 		}
 
 			.spotlights > section > .image img {
@@ -3240,8 +3242,10 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
-			/* background: url(/images/cover_pic.jpg) center center; */
+			/* background-color: #5e42a6; */
+			background: url(/images/cover_pic.jpg) center center ;
+			background-size: cover;
+
 		}
 
 		.wrapper.style2.fullscreen {
